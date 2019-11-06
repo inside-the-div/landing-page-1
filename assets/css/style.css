@@ -1,0 +1,358 @@
+/*google fonts*/
+@import url('https://fonts.googleapis.com/css?family=Noto+Serif|Raleway:300,400,600&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Noto+Serif:400,400i&display=swap');
+
+
+
+/*====================default css start ==============*/
+body{
+	margin: 0px;
+}
+h1,h2,h3,h4,h5,h6,a,p,img,i,{
+	margin: 0px !important;
+	padding: 0px !important;
+}
+a:hover{
+	text-decoration: none;
+}
+/*padding*/
+.padding-y-100{
+	padding-top:100px;
+	padding-bottom: 100px;
+}
+
+
+/*font-family*/
+
+.font-raleway{
+	font-family: 'Raleway', sans-serif;
+}
+.font-noto{
+	font-family: 'Noto Serif', serif; 
+	font-style: italic;
+}
+.font-bold{font-weight: bold;}
+
+/*font size*/
+.font-14{font-size: 14px;}
+.font-15{font-size: 15px;}
+.font-16{font-size: 16px;}
+.font-18{font-size: 18px;}
+.font-20{font-size: 20px;}
+.font-21{font-size: 21px;}
+.font-24{font-size: 24px;}
+.font-30{font-size: 30px;}
+.font-36{font-size: 36px;}
+/*color*/
+.color-green{color:#5eca88 !important;}
+.color-gray{color:#636c6c !important;}
+.color-light-gray{color:#747a7a !important;}
+.color-white{color:#fff !important;}
+.color-dark{color:#3c3d42 !important;}
+
+/*============================default css end ====================================*/
+
+
+.navbar-brand{
+	padding-top: 0px;
+}
+.logo-and-nav{
+	background: #fff;
+}
+.navbar-nav .nav-link{
+	padding: 35px 15px;
+}
+.hero-text{
+	background-position: left top;
+	padding-top: 180px;
+	padding-bottom: 245px;
+}
+.hero-text .content p{
+	margin: 45px 0px;
+}
+.hero-text .content .download-btn{
+	background: transparent;
+	border:2px solid #fff;
+	padding: 13px 60px;
+	border-radius: 50px;
+	transition: 0.4s;
+}
+
+.hero-text .content .download-btn:hover{
+	color: #fff !important;
+	background: #5eca88;
+}
+
+
+
+/*feature css*/
+#feature{
+	background: #f2f9fe;
+}
+.side-nav{
+	border-right: 1px solid #dbe2e2;
+}
+.side-nav ul li{
+	list-style: none;
+	padding: 25px 0px;
+	cursor: pointer;
+	position: relative;
+	
+}
+.side-nav ul li .icon{
+	
+	font-size: 40px;
+	transition: 0.4s;
+	color: #9fa9a9;
+	
+	
+}
+.side-nav ul li .text{
+	
+	margin-top: 15px;
+	transition: 0.4s;
+	
+
+}
+
+.side-nav ul li:after{
+	content: '';
+	position: absolute;
+	top: calc(50% - 30px);
+	right: calc(3% - 2px);
+	height: 60px;
+	width: 10px;
+	background: #5eca88;
+	opacity: 0;
+	transition: 0.4s;
+}
+
+.side-nav ul .active:after{
+	content: '';
+	position: absolute;
+	top: calc(50% - 30px);
+	right: calc(3% - 2px);
+	height: 60px;
+	width: 10px;
+	background: #5eca88;
+	opacity: 1;
+	
+}
+
+
+
+.side-nav ul .active .icon{
+	
+	color: #5eca88 !important;
+	
+}
+.side-nav ul .active .text{
+	
+	color:#5eca88 !important;
+
+}
+
+
+.side-nav ul li:hover .icon{
+	
+	color: #5eca88 !important;
+	
+}
+.side-nav ul li:hover .text{
+	
+	color:#5eca88 !important;
+
+}
+.side-nav ul li:hover:after{
+	opacity: 1;
+}
+.right-content{
+	padding: 20px 40px;
+}
+.right-content .right-child{
+	display: none;
+}
+
+.right-content .love{
+	display: block;
+}
+.right-content .right-child span{
+	display: block;
+	text-align: center;
+	padding: 80px 0px;
+}
+.right-content .right-child span i{
+	font-size: 100px;
+	color:#5eca88;
+}
+
+/*product*/
+
+
+#product{
+	background: #fff;
+}
+
+
+.product-title{
+	margin: 30px 0px;
+	position: relative;
+	padding: 20px 0px;
+}
+.product-title:after{
+	position: absolute;
+	bottom: 0;
+	left: 0;
+	width: 120px;
+	height: 2px;
+	background: #949c9c;
+	content: '';
+}
+
+
+.product-sub-title{
+	margin: 20px 0px;
+}
+.product-description{
+	margin: 10px 0px;
+}
+.learn-more-btn{
+	background: transparent;
+	border:2px solid #aab2b5;
+	padding: 13px 60px;
+	border-radius: 50px;
+	margin-top: 50px;
+	color: #636c6c;
+	transition: 0.4s;
+}
+
+.learn-more-btn:hover{
+	color: #fff !important;
+	background: #5eca88;
+}
+
+
+
+
+/*gallery*/
+
+#gallery,#feedback{
+	background: #f2f9fe;
+}
+.gallery-img{
+	margin-top: 80px;
+	text-align: center;
+}
+
+
+
+
+.owl-theme .owl-nav button.owl-prev{
+	font-size: 100px !important;
+	position: absolute;
+	top: 0px;
+	left: -50px;
+	color: #9fa9a9;
+}
+.owl-theme .owl-nav button.owl-next{
+	font-size: 100px !important;
+	position: absolute;
+	top: 0px;
+	right: -50px;
+	color: #9fa9a9;
+}
+.owl-theme .owl-nav button.owl-next:hover{
+	background: transparent;
+	color: #9fa9a9;
+}
+
+.owl-theme .owl-nav button.owl-prev:hover{
+	background: transparent;
+	color: #9fa9a9;
+}
+.owl-carousel .owl-item img{
+	display: inline-block;
+	width: 100px;
+}
+.owl-theme .owl-dots .owl-dot.active span, .owl-theme .owl-dots .owl-dot:hover span{
+	background:#5eca88 !important;
+}
+
+/*==============================subscribe===============================*/
+.subscribe-content h2{
+	padding-bottom: 20px;
+}
+.subscribe-content h2 span{
+	display: inline-block;
+	margin-right: 10px;
+	font-size: 35px;
+}
+.subscribe-content .subscribe-form{
+	position: relative;
+}
+.subscribe-content #subscribe-email-field{
+	height: 55px;
+	border-radius: 30px;
+	border:2px solid #bbc3c2;
+}
+.subscribe-content #subscribe-btn{
+	position: absolute;
+	top: 0;
+	right: 0;
+	height: 55px;
+	width: 150px;
+	border-radius: 30px;
+	background: #5dca88;
+	border:2px solid #5dca88;
+	color: #fff;
+	font-size: 20px;
+}
+
+
+/*=======================footer==========================*/
+footer{
+	padding: 40px 0px;
+	background: #2d312f;
+}
+footer .footer-text{
+	padding: 10px 0px;
+	color: #8c9494;
+}
+footer .socila-link{
+	margin-bottom: 30px;
+}
+footer .socila-link ul,.quick-link ul{
+	padding: 0px;
+	margin: 0px;
+}
+
+footer .socila-link ul li,.quick-link ul li{
+	list-style: none;
+	display: inline-block;
+}
+
+footer .socila-link ul li a{
+	display: block;
+	width: 40px;
+	height: 40px;
+	line-height: 40px;
+	border-radius: 100%;
+	text-align: center;
+	background: #5d6461;
+	color: #464b49;
+	font-size: 20px;
+	margin-right: 15px;
+	transition: 0.4s;
+}
+footer .socila-link ul li a:hover{
+	color: #fff;
+	background: #5dca88;
+}
+footer .socila-link ul li:last-child a{
+	margin-right: 0px;
+}
+footer .quick-link ul li a{
+	display: inline-block;
+	padding: 5px 10px;
+	color: #5d6461;
+}
